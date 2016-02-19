@@ -1,7 +1,7 @@
-(kicad_pcb (version 4) (host pcbnew "(2015-08-21 BZR 6112)-product")
+(kicad_pcb (version 4) (host pcbnew 4.0.0-1rc2.201511291916+6190~38~ubuntu14.04.1-stable)
 
   (general
-    (links 308)
+    (links 0)
     (no_connects 0)
     (area 74.829999 77.938086 119.89816 145.81)
     (thickness 1.6)
@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.3048)
+    (last_trace_width 0.2032)
     (user_trace_width 0.254)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
