@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 5
+Sheet 4 5
 Title "BLDC Driver 4.11"
 Date "21 aug 2015"
 Rev "4.12"
@@ -506,12 +506,6 @@ Text HLabel 4500 3950 0    60   3State ~ 0
 TX_SDA_NSS
 Text HLabel 4500 4550 0    60   Input ~ 0
 TEMP_MOTOR
-Text HLabel 4500 4150 0    60   Output ~ 0
-L3
-Text HLabel 4500 4250 0    60   Output ~ 0
-L2
-Text HLabel 4500 4350 0    60   Output ~ 0
-L1
 Text HLabel 4500 2250 0    60   Input ~ 0
 SCK_ADC_EXT
 Text HLabel 4500 5150 0    60   3State ~ 0
@@ -520,24 +514,18 @@ Text HLabel 4500 5250 0    60   Output ~ 0
 RX_SCL_MOSI
 Text HLabel 4500 5750 0    60   Input ~ 0
 FAULT
-Text HLabel 4500 2550 0    60   Output ~ 0
-H3
-Text HLabel 4500 2650 0    60   Output ~ 0
-H2
-Text HLabel 4500 2750 0    60   Output ~ 0
-H1
 Text HLabel 4500 1750 0    60   Input ~ 0
-SENS3
+VSENS3
 Text HLabel 4500 1850 0    60   Input ~ 0
-SENS2
+VSENS2
 Text HLabel 4500 1950 0    60   Input ~ 0
-SENS1
+VSENS1
 Text HLabel 4500 3250 0    60   Input ~ 0
 BR_SO1
 Text HLabel 4500 3150 0    60   Input ~ 0
 BR_SO2
 Text HLabel 4500 4750 0    60   Input ~ 0
-AN_IN
+BUS_VOLTAGE_IN
 Text HLabel 4500 5550 0    60   Output ~ 0
 EN_GATE
 Text HLabel 4500 4050 0    60   Input ~ 0
@@ -4439,4 +4427,34 @@ Text HLabel 4500 2050 0    60   Input ~ 0
 ADC_TEMP
 Text HLabel 4500 2150 0    60   3State ~ 0
 TX_SDA_NSS
+Text HLabel 1350 2000 0    60   Output ~ 0
+PWM_A
+Text HLabel 1350 2100 0    60   Output ~ 0
+PWM_B
+Text HLabel 1350 2200 0    60   Output ~ 0
+PWM_C
+Wire Wire Line
+	1350 2000 1750 2000
+Wire Wire Line
+	1350 2100 1750 2100
+Wire Wire Line
+	1350 2200 1750 2200
+Text Label 4150 2550 0    60   ~ 0
+PWM_A
+Text Label 4150 2650 0    60   ~ 0
+PWM_B
+Text Label 4150 2750 0    60   ~ 0
+PWM_C
+Wire Wire Line
+	4150 2550 4500 2550
+Wire Wire Line
+	4150 2650 4500 2650
+Wire Wire Line
+	4150 2750 4500 2750
+Text Label 1750 2000 2    60   ~ 0
+PWM_A
+Text Label 1750 2100 2    60   ~ 0
+PWM_B
+Text Label 1750 2200 2    60   ~ 0
+PWM_C
 $EndSCHEMATC
